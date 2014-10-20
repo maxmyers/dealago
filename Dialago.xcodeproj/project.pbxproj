@@ -15,6 +15,24 @@
 		0BD7E16E19F20CF000821ABB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD7E16D19F20CF000821ABB /* Images.xcassets */; };
 		0BD7E17119F20CF000821ABB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BD7E16F19F20CF000821ABB /* LaunchScreen.xib */; };
 		0BD7E17D19F20CF000821ABB /* DialagoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7E17C19F20CF000821ABB /* DialagoTests.m */; };
+		0BD7E18A19F2211400821ABB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E18919F2211400821ABB /* ImageIO.framework */; };
+		0BD7E18C19F221BD00821ABB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E18B19F221BD00821ABB /* CoreGraphics.framework */; };
+		0BD7E19119F2257200821ABB /* RGBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7E19019F2257200821ABB /* RGBClass.m */; };
+		0BD7E19419F243CA00821ABB /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7E19319F243CA00821ABB /* LoginController.m */; };
+		0BD7E19619F244C600821ABB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E19519F244C600821ABB /* Parse.framework */; };
+		0BD7E19819F244D800821ABB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E19719F244D800821ABB /* AudioToolbox.framework */; };
+		0BD7E19A19F244E000821ABB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E19919F244E000821ABB /* CFNetwork.framework */; };
+		0BD7E19C19F244FA00821ABB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E19B19F244FA00821ABB /* CoreLocation.framework */; };
+		0BD7E19E19F2450300821ABB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E19D19F2450300821ABB /* libz.dylib */; };
+		0BD7E1A019F2450A00821ABB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E19F19F2450A00821ABB /* MobileCoreServices.framework */; };
+		0BD7E1A219F2450F00821ABB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E1A119F2450F00821ABB /* QuartzCore.framework */; };
+		0BD7E1A419F2451500821ABB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E1A319F2451500821ABB /* Security.framework */; };
+		0BD7E1A619F2451A00821ABB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E1A519F2451A00821ABB /* StoreKit.framework */; };
+		0BD7E1A819F2452100821ABB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E1A719F2452100821ABB /* SystemConfiguration.framework */; };
+		0BD7E1AB19F249FB00821ABB /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7E1AA19F249FB00821ABB /* SignUp.m */; };
+		0BD7E1F519F259E700821ABB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD7E1F419F259E700821ABB /* Bolts.framework */; };
+		0BD7E1F819F25F9100821ABB /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7E1F719F25F9100821ABB /* QuestionViewController.m */; };
+		0BD7E1FB19F2BB3200821ABB /* InstructionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7E1FA19F2BB3200821ABB /* InstructionsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +60,29 @@
 		0BD7E17619F20CF000821ABB /* DialagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD7E17B19F20CF000821ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BD7E17C19F20CF000821ABB /* DialagoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialagoTests.m; sourceTree = "<group>"; };
+		0BD7E18919F2211400821ABB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0BD7E18B19F221BD00821ABB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BD7E18F19F2257200821ABB /* RGBClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBClass.h; sourceTree = "<group>"; };
+		0BD7E19019F2257200821ABB /* RGBClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBClass.m; sourceTree = "<group>"; };
+		0BD7E19219F243CA00821ABB /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		0BD7E19319F243CA00821ABB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		0BD7E19519F244C600821ABB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		0BD7E19719F244D800821ABB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0BD7E19919F244E000821ABB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0BD7E19B19F244FA00821ABB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0BD7E19D19F2450300821ABB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0BD7E19F19F2450A00821ABB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0BD7E1A119F2450F00821ABB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0BD7E1A319F2451500821ABB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0BD7E1A519F2451A00821ABB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0BD7E1A719F2452100821ABB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0BD7E1A919F249FB00821ABB /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUp.h; sourceTree = "<group>"; };
+		0BD7E1AA19F249FB00821ABB /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUp.m; sourceTree = "<group>"; };
+		0BD7E1F419F259E700821ABB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0BD7E1F619F25F9100821ABB /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		0BD7E1F719F25F9100821ABB /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		0BD7E1F919F2BB3200821ABB /* InstructionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstructionsController.h; path = ../InstructionsController.h; sourceTree = "<group>"; };
+		0BD7E1FA19F2BB3200821ABB /* InstructionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstructionsController.m; path = ../InstructionsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +90,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD7E1A819F2452100821ABB /* SystemConfiguration.framework in Frameworks */,
+				0BD7E1A619F2451A00821ABB /* StoreKit.framework in Frameworks */,
+				0BD7E1A419F2451500821ABB /* Security.framework in Frameworks */,
+				0BD7E1A219F2450F00821ABB /* QuartzCore.framework in Frameworks */,
+				0BD7E1A019F2450A00821ABB /* MobileCoreServices.framework in Frameworks */,
+				0BD7E19619F244C600821ABB /* Parse.framework in Frameworks */,
+				0BD7E19E19F2450300821ABB /* libz.dylib in Frameworks */,
+				0BD7E1F519F259E700821ABB /* Bolts.framework in Frameworks */,
+				0BD7E19C19F244FA00821ABB /* CoreLocation.framework in Frameworks */,
+				0BD7E18C19F221BD00821ABB /* CoreGraphics.framework in Frameworks */,
+				0BD7E19A19F244E000821ABB /* CFNetwork.framework in Frameworks */,
+				0BD7E19819F244D800821ABB /* AudioToolbox.framework in Frameworks */,
+				0BD7E18A19F2211400821ABB /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,11 +137,34 @@
 		0BD7E15C19F20CF000821ABB /* Dialago */ = {
 			isa = PBXGroup;
 			children = (
+				0BD7E1A719F2452100821ABB /* SystemConfiguration.framework */,
+				0BD7E1A519F2451A00821ABB /* StoreKit.framework */,
+				0BD7E1A319F2451500821ABB /* Security.framework */,
+				0BD7E1A119F2450F00821ABB /* QuartzCore.framework */,
+				0BD7E19F19F2450A00821ABB /* MobileCoreServices.framework */,
+				0BD7E19D19F2450300821ABB /* libz.dylib */,
+				0BD7E1F419F259E700821ABB /* Bolts.framework */,
+				0BD7E19B19F244FA00821ABB /* CoreLocation.framework */,
+				0BD7E19919F244E000821ABB /* CFNetwork.framework */,
+				0BD7E19719F244D800821ABB /* AudioToolbox.framework */,
+				0BD7E19519F244C600821ABB /* Parse.framework */,
+				0BD7E18B19F221BD00821ABB /* CoreGraphics.framework */,
+				0BD7E18919F2211400821ABB /* ImageIO.framework */,
 				0BD7E16119F20CF000821ABB /* AppDelegate.h */,
+				0BD7E1F919F2BB3200821ABB /* InstructionsController.h */,
+				0BD7E1FA19F2BB3200821ABB /* InstructionsController.m */,
 				0BD7E16219F20CF000821ABB /* AppDelegate.m */,
 				0BD7E16719F20CF000821ABB /* ViewController.h */,
 				0BD7E16819F20CF000821ABB /* ViewController.m */,
+				0BD7E18F19F2257200821ABB /* RGBClass.h */,
+				0BD7E19019F2257200821ABB /* RGBClass.m */,
 				0BD7E16A19F20CF000821ABB /* Main.storyboard */,
+				0BD7E1F619F25F9100821ABB /* QuestionViewController.h */,
+				0BD7E1F719F25F9100821ABB /* QuestionViewController.m */,
+				0BD7E1A919F249FB00821ABB /* SignUp.h */,
+				0BD7E1AA19F249FB00821ABB /* SignUp.m */,
+				0BD7E19219F243CA00821ABB /* LoginController.h */,
+				0BD7E19319F243CA00821ABB /* LoginController.m */,
 				0BD7E16D19F20CF000821ABB /* Images.xcassets */,
 				0BD7E16F19F20CF000821ABB /* LaunchScreen.xib */,
 				0BD7E16419F20CF000821ABB /* Dialago.xcdatamodeld */,
@@ -171,6 +248,7 @@
 				TargetAttributes = {
 					0BD7E15919F20CF000821ABB = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = AP8262XN9A;
 					};
 					0BD7E17519F20CF000821ABB = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -223,9 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BD7E16319F20CF000821ABB /* AppDelegate.m in Sources */,
+				0BD7E19119F2257200821ABB /* RGBClass.m in Sources */,
+				0BD7E1F819F25F9100821ABB /* QuestionViewController.m in Sources */,
 				0BD7E16619F20CF000821ABB /* Dialago.xcdatamodeld in Sources */,
+				0BD7E1FB19F2BB3200821ABB /* InstructionsController.m in Sources */,
 				0BD7E16919F20CF000821ABB /* ViewController.m in Sources */,
 				0BD7E16019F20CF000821ABB /* main.m in Sources */,
+				0BD7E1AB19F249FB00821ABB /* SignUp.m in Sources */,
+				0BD7E19419F243CA00821ABB /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +430,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Dialago",
+				);
 				INFOPLIST_FILE = Dialago/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +448,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Dialago",
+				);
 				INFOPLIST_FILE = Dialago/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +515,7 @@
 				0BD7E18219F20CF000821ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BD7E18319F20CF000821ABB /* Build configuration list for PBXNativeTarget "DialagoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +524,7 @@
 				0BD7E18519F20CF000821ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
